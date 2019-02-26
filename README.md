@@ -1,6 +1,6 @@
 # A simple airflow simulation for the D150 conceptual aircraft using OpenFOAM and Slurm
 
-
+![](openfoam_d150.png)
 
 This is a simple test case to verify a workflow of automatic mesh creation with TiGL. **The simulation parameters have not been chosen for a high level of realism!** So please don't build this aircraft and expect it to fly...
 
