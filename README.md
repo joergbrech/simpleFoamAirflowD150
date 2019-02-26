@@ -38,4 +38,4 @@ This is a simple test case to verify a workflow of automatic mesh creation with 
 
 # Acknowledgements 
 
-Thanks to **[Paul Putin](https://github.com/pputin)** for generating the Mesh from a CPACS file created with DLR-SC/TiGL and Gmsh and for creating the OpenFOAM case!
+Thanks to **[Paul Putin](https://github.com/pputin)** for generating the Mesh from a [CPACS](https://github.com/DLR-SL/CPACS) file created with [TiGL](https://github.com/DLR-SC/tigl) and [Gmsh](https://gitlab.onelab.info/gmsh/gmsh) and for creating the OpenFOAM case!
