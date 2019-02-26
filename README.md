@@ -17,7 +17,7 @@ This is a simple test case to verify a workflow of automatic mesh creation with 
    ```bash
    cd simpleFoamAirflowD150
    ```
-- Make sure there exists a module named `openfoam/v1702` that loads OpenFOAM the necessary MPI software into the environment. If needed, edit the corresponding line in `TiGL_D150_08_16.sh` that loads this module.
+- Make sure there exists a module named `openfoam/v1702` that loads the OpenFOAM installation and the necessary MPI software into the environment. If needed, edit the corresponding line in `TiGL_D150_08_16.sh` that loads this module. If you have access to the HBRS cluster and don't know what any of this means, let me know, I can help you set up the module system.
  - Submit the job specified by the script `TiGL_D150_08_16.sh`:
  
    ```bash
