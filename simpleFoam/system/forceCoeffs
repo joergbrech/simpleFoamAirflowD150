@@ -1,0 +1,24 @@
+forces_airplane
+{
+    type                forceCoeffs;
+    functionObjectLibs  ("libforces.so");
+    outputControl       timeStep;
+    outputInterval      1;
+     
+    patches             (Fuselage);
+    pName               p;
+    UName               U;
+    rho                 rhoInf;
+    log                 true;
+     
+    liftDir             (0 0 1);
+    dragDir             (1 0 0);
+    CofR                (19 0 0);
+    pitchAxis           (0 -1 0);
+     
+    magUInf             100.00;
+    rhoInf              1.2;
+    lRef                37.5;
+    Aref                1;
+}
+ 
