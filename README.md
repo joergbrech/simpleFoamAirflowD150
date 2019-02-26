@@ -32,10 +32,10 @@ This is a simple test case to verify a workflow of automatic mesh creation with 
  
  - The results are stored in `simpleFoam/VTK`. Copy the vtk-files e.g. using [scp](https://www.garron.me/en/articles/scp.html) to your local computer and postprocess them with [Paraview](https://www.paraview.org/). That's all there is to it!
  
-# Remarks
+## Remarks
 
  - The script `TiGL_150_08_16.sh` generates the OpenFOAM mesh from a `.msh` file located in the `simpleFOAM` subdirectory. Next, the `boundary` file of the root directory is copied to the OpenFOAM case to replace some boundary conditions, specifically the airplane surface needs to be set to `wall`. The `boundary` file is hardcoded to fit to the `.msh` file, as it includes the submesh names and node and cell numbers. It would not work out of the shell for another mesh.
 
 # Acknowledgements 
 
-Thanks to @pputin for generating the Mesh from a CPACS file created with DLR-SC/TiGL and Gmsh and for creating the OpenFOAM case!
+Thanks to **[Paul Putin](https://github.com/pputin)** for generating the Mesh from a CPACS file created with DLR-SC/TiGL and Gmsh and for creating the OpenFOAM case!
